@@ -36,8 +36,3 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 
 	return result.Next
 }
-
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
